@@ -5,7 +5,7 @@ from PURVIMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "PURVI_SUPPORT"
+MUST_JOIN = "ROYAL_KILLER"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
